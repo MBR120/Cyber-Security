@@ -6,13 +6,13 @@ Upon scanning the network it shows port 80 is open with Appache httpd running on
 
 
 
-![Shows denied access](/home/user/htb/Responder/Referance_Images/Screenshot_20260512_113821.png)
+![Shows denied access](/home/user/htb/Responder/Reference_Images/Screenshot_20260512_113821.png)
 
 
 
 With further investigation I try to access the website and am met with the below error message.When visiting the web service using the IP address.
 
-![Shows denied access](/home/user/htb/Responder/Referance_Images/Screenshot_20260512_113638.png)
+![Shows denied access](/Cyber-Security/Reference_Images/Screenshot_20260512_113638.png)
 
 Task 1
 
@@ -22,7 +22,7 @@ Answer - unika.htb
 
 Due to the website not working I belived it was due to my computer not being aware of the ip address.I used the /etc/hosts folder to update the address book and now I have access to the webiste. 
 
-![website access](/home/user/htb/Responder/Referance_Images/Screenshot_20260512_132216.png)
+![website access](/home/user/htb/Responder/Reference_Images/Screenshot_20260512_132216.png)
 
 
 
@@ -35,7 +35,7 @@ Which scripting language is being used on the server to generate webpages?
 
 This was found by a curl command as shown below showing it uses PHP 
 
-![curl command](/home/user/htb/Responder/Referance_Images/Screenshot_20260512_135517.png)
+![curl command](/home/user/htb/Responder/Reference_Images/Screenshot_20260512_135517.png)
 
 
 Task 3
@@ -46,11 +46,11 @@ Answer - Page
 
 I found this by exploring the website and found the parameters have changed. Upon researching this paremeter could potentially be exploited witht the file inclusion vulnerablity. 
 
-![Website url potential exploit](/home/user/htb/Responder/Referance_Images/Screenshot_20260514_160018.png)
+![Website url potential exploit](/home/user/htb/Responder/Reference_Images/Screenshot_20260514_160018.png)
 
 
 
-![Website url potential exploit](/home/user/htb/Responder/Referance_Images/Screenshot_20260515_095029.png)
+![Website url potential exploit](/home/user/htb/Responder/Reference_Images/Screenshot_20260515_095029.png)
 
 Task 4
 
@@ -111,7 +111,7 @@ Initialise attacking tool
 
 sudo responder -I tun0
 
-![responder initiated](/home/user/htb/Responder/Referance_Images/Screenshot_20260518_140159.png)
+![responder initiated](/home/user/htb/Responder/Reference_Images/Screenshot_20260518_140159.png)
 
 This starts several daemons (background services) on the machine. It turns my computer into a fake Windows File Server by opening up TCP port 445 (used for Windows file sharing) also known as SMB.
 
@@ -126,7 +126,7 @@ Next the ip adress found with responder shown below (Below  tun0)
 
 
 
-![tun0](/home/user/htb/Responder/Referance_Images/Screenshot_20260519_074956.png)
+![tun0](/home/user/htb/Responder/Reference_Images/Screenshot_20260519_074956.png)
 
 
 Then a suedo file path used as a place holder as shown below. 
