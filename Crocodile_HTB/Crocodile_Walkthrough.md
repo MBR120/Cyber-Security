@@ -15,7 +15,7 @@ Answer - vsftpd 3.0.3
 
 As shown in the image below it shopws the active service and version running on port 21 
 
-![Nmap scan Results](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260507_150209.png)
+![Nmap scan Results](Reference_Images/Screenshot_20260507_150209.png)
 
 Task 3
 
@@ -31,7 +31,7 @@ After connecting to the FTP server using the ftp client, what username do we pro
 
 Answer - Anonymous 
 
-![Shows 230 Login code](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260507_191934.png)
+![Shows 230 Login code](Reference_Images/Screenshot_20260507_191934.png)
 
 Task 5
 
@@ -41,7 +41,7 @@ Answer - get
 
 As shown below once inside the ftp server i used the get method for the files shown in the image which had user names and passwords in them, 
 
-![get method ](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260507_192550.png)
+![get method](Reference_Images/Screenshot_20260507_192550.png)
 
 Task 6
 
@@ -49,7 +49,7 @@ What is one of the higher-privilege sounding usernames in 'allowed.userlist' tha
 
 Answer - Admin
 
-![usernames](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260507_192845.png)
+![usernames](Reference_Images/Screenshot_20260507_192845.png)
 
 Task 7
 
@@ -74,7 +74,7 @@ Answer - login.php
 
 As shown below this flag helps filter the specific files relevant to the enumaration we have been doing as shown below it specifies a login.php file which is very useful for the next steps
 
-![Gobuster findings](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260507_203632.png)
+![Gobuster findings](Reference_Images/Screenshot_20260507_203632.png)
  
  
  Step 10 (extra step)
@@ -174,7 +174,7 @@ Key Takeaways for Future Targets
     Don't Forget the Button: If there is a name="Submit" in the HTML, include it in your Hydra string.
 
     Verify with curl: Never start a brute-force attack without seeing the source code first. It saves hours of troubleshooting.
-![Hydra brute force](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260508_171749.png)
+![Hydra brute force](Reference_Images/Screenshot_20260508_171749.png)
  
 
  
@@ -182,5 +182,4 @@ Key Takeaways for Future Targets
 
 Answer - 
 
-![shows login to website and flag is on homepage](/home/user/Fundamentals/Reference_Images/Screenshots/Screenshot_20260508_170608.png)
- 
+![shows login to website and flag is on homepage](Reference_Images/Screenshot_20260508_170608.png)
